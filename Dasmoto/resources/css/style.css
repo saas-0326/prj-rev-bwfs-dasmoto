@@ -5,30 +5,36 @@ html {
 h1 {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
   font-size: 100px;
-  font-weight: bold;
   color: khaki;
   text-align: center;
 }
 
+h1, div h2, .price {
+  font-weight: bold;
+}
+
+/* Each section's title */
 div h2 {
   font-size: 32px;
-  font-weight: bold;
   color: white;
 }
 
+/* Brushes section title */
 .brushes {
   background-color: MediumSpringGreen;
 }
 
+/* Frames section title */
 .frames {
   background-color: LightCoral;
 }
 
+/* Paint section title */
 .paint {
   background-color: SkyBlue;
 }
 
+/* Products price */
 .price {
-  font-weight: bold;
   color: Blue;
 }
